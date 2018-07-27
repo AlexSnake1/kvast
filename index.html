@@ -26,11 +26,18 @@
       <div class="popular-items">
         <div class="catalog-item">
           <h3>Вахтёр</h3>
+          <table>
+            <tr>
+              <td>Алк.</td>
+              <td>&lt; 1%</td>
+            </tr>
+            <tr>
+              <td>Ккал:</td>
+              <td>35</td>
+            </tr>
+          </table>
 
-          Алк. &lt; 1%<br>
-          Ккал: 35
-
-          <p>Ржаной хлеб, Вода, Солод, Соль</p>
+          <p class="sort">Ржаной хлеб, Вода, Солод, Соль</p>
           <img src="img/bottle-left.jpg" alt="Вахтёр">
 
           <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
@@ -41,11 +48,18 @@
         </div>
         <div class="catalog-item">
           <h3>Романтик</h3>
+          <table>
+            <tr>
+              <td>Алк.</td>
+              <td>&lt; 0,5%</td>
+            </tr>
+            <tr>
+              <td>Ккал:</td>
+              <td>27</td>
+            </tr>
+          </table>
 
-          Алк. &lt; 0,5%<br>
-          Ккал: 27
-
-          <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+          <p class="sort">Ячменный хлеб, Вода, Солод, Апельсин</p>
           <img src="img/bottle-right.jpg" alt="Романтик">
 
           <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
@@ -115,11 +129,11 @@
       <h2>Ассортимент</h2>
       <table>
         <tr class="price-name">
-          <td>Название</td>
-          <td>Алк.</td>
-          <td>Ккал</td>
-          <td>Объём</td>
-          <td>Стоимость</td>
+          <th>Название</th>
+          <th>Алк.</th>
+          <th>Ккал</th>
+          <th>Объём</th>
+          <th>Стоимость</th>
         </tr>
         <tr>
           <td>Классика</td>
@@ -179,10 +193,9 @@
               <option value="1">От 5 до 10 баррелей в неделю</option>
             </select>
           </div>
-          <div class="order-form-group">
+          <div class="feedback-form-group">
             <label for="message">Доп. комментарий:</label>
-            <textarea type="text" name="message" id="message">
-            </textarea>
+            <textarea name="message" id="message" rows="10" cols="96"></textarea>
           </div>
           <div class="checkbox-area">
             <label>
